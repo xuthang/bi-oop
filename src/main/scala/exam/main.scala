@@ -18,7 +18,7 @@ object main extends App {
     )
   )
 
-  val exporter = new SVGExporter("dialog.svg", 2)
+  val exporter = new SVGExporter("dialog.svg")
   exporter.export(dialog)
 
 }

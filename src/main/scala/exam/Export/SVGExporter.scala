@@ -4,7 +4,7 @@ import exam.Displayable._
 
 import java.io.{BufferedWriter, File, PrintWriter}
 
-class SVGExporter(path: String, scaleFactor: Int) extends Exporter {
+class SVGExporter(path: String, scaleFactor: Int = 1) extends Exporter {
   override def export(displayable: Displayable): Unit = {
     val newDisplay = displayable.scale(scaleFactor)
     val pw = new PrintWriter(new File(path))
