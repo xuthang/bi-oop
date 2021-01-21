@@ -1,0 +1,27 @@
+<!-- header, width and height come from the dialog size -->
+<svg width="1200" height="780" xmlns="http://www.w3.org/2000/svg">
+<!-- dialog window -->
+<rect height="780" width="1200" x="0" y="0" stroke-width="2" stroke="#000"
+      fill="#ccc"/>
+<!-- dialog title -->
+<rect height="80" width="1200" x="0" y="0" stroke-width="2" stroke="#000"
+      fill="#fff"/>
+<text font-family="Helvetica" font-size="48" x="451" y="67">Login
+    Dialog</text>
+<!-- labels -->
+<text font-family="Helvetica" font-size="40" x="180" y="286">Username:</text>
+<text font-family="Helvetica" font-size="40" x="180" y="406">Password:</text>
+<!-- input boxes -->
+<rect height="60" width="540" x="540" y="240" stroke-width="2" stroke="#000"
+      fill="#fff"/>
+<rect height="60" width="540" x="540" y="360" stroke-width="2" stroke="#000"
+      fill="#fff"/>
+<!-- login button -->
+<rect height="120" width="300" x="180" y="600" stroke-width="2" stroke="#000"
+      fill="#fff"/>
+<text font-family="Helvetica" font-size="48" x="265" y="687">Login</text>
+<!-- close button -->
+<rect height="120" width="300" x="720" y="600" stroke-width="2" stroke="#000"
+      fill="#fff"/>
+<text font-family="Helvetica" font-size="48" x="805" y="687">Close</text>
+</svg>
