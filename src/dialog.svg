@@ -1,8 +1,8 @@
 <!-- header, width and height come from the dialog size -->
 <svg width="1200" height="780" xmlns="http://www.w3.org/2000/svg">
-<!-- dialog window -->
-<rect height="780" width="1200" x="0" y="0" stroke-width="2" stroke="#000"
-      fill="#ccc"/>
+
+<rect height="780" width="1200" x="0" y="0" stroke-width="2" stroke="#000" fill="#ccc"/>
+
 <!-- dialog title -->
 <rect height="80" width="1200" x="0" y="0" stroke-width="2" stroke="#000"
       fill="#fff"/>
